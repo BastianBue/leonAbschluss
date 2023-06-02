@@ -3,8 +3,11 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <title>Leon App</title>
-    <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="css/home/home.css">
+    <link rel="stylesheet" href="css/home/slider.css">
+    <link rel="stylesheet" href="css/shared/nav.css">
+    <link rel="stylesheet" href="css/shared/utility.css">
+    <link rel="stylesheet" href="css/shared/reset.css">
 </head>
 <body>
 <nav id="navbar" classname="sidebar">
@@ -23,6 +26,24 @@
 </nav>
 <main class="content">
     <section id="slideshow">
+        <div class="carousel">
+            <input type="radio" name="carousel" id="carousel-1" class="carousel-inputs" checked>
+            <input type="radio" name="carousel" id="carousel-2" class="carousel-inputs">
+            <input type="radio" name="carousel" id="carousel-3" class="carousel-inputs">
+            <input type="radio" name="carousel" id="carousel-4" class="carousel-inputs">
+            <div class="carousel-inner">
+                <div class="carousel-slide" style="background-color: #ffcccc;"></div>
+                <div class="carousel-slide" style="background-color: #ccffcc;"></div>
+                <div class="carousel-slide" style="background-color: #ccccff;"></div>
+                <div class="carousel-slide" style="background-color: #ffffcc;"></div>
+            </div>
+            <div class="carousel-indicators">
+                <label class="carousel-indicator carousel-indicator-1" for="carousel-1"></label>
+                <label class="carousel-indicator carousel-indicator-2" for="carousel-2"></label>
+                <label class="carousel-indicator carousel-indicator-3" for="carousel-3"></label>
+                <label class="carousel-indicator carousel-indicator-4" for="carousel-4"></label>
+            </div>
+        </div>
         <img src="" alt="logo">
         <h3>Seepferdchen <br>5-10 Jahre</h3>
         <p>Wir wollen nicht baden gehen. Wendig wie ein Seepferdchen im Wasser.</p>

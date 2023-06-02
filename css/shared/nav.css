@@ -1,0 +1,16 @@
+@import 'shared/variables.css';
+
+nav {
+    width: var(--nav-width);
+    height: 100vh;
+    background-color: var(--nav);
+    color: var(--text-white);
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.content {
+    margin-left: var(--nav-width);
+    width: calc(100vw - var(--nav-width));
+}

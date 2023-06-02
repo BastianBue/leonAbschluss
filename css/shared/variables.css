@@ -1,0 +1,16 @@
+:root {
+    --nav: #172227;
+    --main-black: #000000;
+    --main-dark-blue: #084f8a;
+    --main-light-blue: #c0d4eb;
+    --main-gray: #d7dfe2;
+
+    --text-black: #222222;
+    --text-white: #ffffff;
+
+    --akzent-green: #b4d46c;
+    --akzent-yellow: #efc14e;
+    --akzent-red: #e2543c;
+
+    --nav-width: 300px;
+}
