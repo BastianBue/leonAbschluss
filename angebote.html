@@ -184,7 +184,85 @@
             <h3>
                 Meine Wunschliste für den Kindergeburtstag:
             </h3>
+            <div class="choices">
+                <label for="animation">Mit Animation</label>
+                <input type="radio" id="animation" value="true" name="animation"/>
+                <label for="no-animation">Mit Animation</label>
+                <input type="radio" id="no-animation" value="false" name="animation"/>
+                <label for="waterball">Spilerisches Wettschwimmen</label>
+                <input type="checkbox" id="waterball"/>
+                <label for="diving">Spielerisches Wettschwimmen</label>
+                <input type="checkbox" id="diving"/>
+                <label for="fotos">Spielerisches Wettschwimmen</label>
+                <input type="checkbox" id="fotos"/>
+                <label for="bewirtung">Mit Animation</label>
+                <input type="radio" name="bewirtung" id="bewirtung" value="false"/>
+                <label for="ohne-bewirtung">Mit Animation</label>
+                <input type="radio" name="bewirtung" id="ohne-bewirtung" value="false"/>
+            </div>
+            <div class="food">
+                <label for="pommes">Pommes</label>
+                <input type="checkbox" id="pommes"/>
+                <label for="würstchen">Würstchen</label>
+                <input type="checkbox" id="würstchen"/>
+                <label for="vegetarisch-würstchen">Vegetarische Würstchen</label>
+                <input type="checkbox" id="vegetarisch-würstchen"/>
+                <label for="vegetarisch-bratlinge">Vegetarische Bratlinge</label>
+                <input type="checkbox" id="vegetarisch-bratlinge"/>
+                <label for="spagethi">Spaghetti mit Tomatensoße</label>
+                <input type="checkbox" id="spagethi"/>
+            </div>
+            <div class="getränke">
+                <label for="wasser-still">Wasser (Still)</label>
+                <input type="checkbox" id="wasser-still"/>
+                <label for="wasser-medium">Wasser (medium)</label>
+                <input type="checkbox" id="wasser-medium"/>
+                <label for="apfelsaft">Apfelsaft</label>
+                <input type="checkbox" id="apfelsaft"/>
+                <label for="orangensaft">Orarngensaft</label>
+                <input type="checkbox" id="orangensaft"/>
+                <label for="limonade-zitrone">Zitronenlimonade</label>
+                <input type="checkbox" id="limonade-zitrone"/>
+                <label for="limonade-orange">Orangenlimonade</label>
+                <input type="checkbox" id="limonade-orange"/>
+                <label for="limonade-himbeere">Himbeerlimonade</label>
+                <input type="checkbox" id="limonade-himbeere"/>
+                <label for="limonade-waldmeister">Waldmeisterlimonade</label>
+                <input type="checkbox" id="limonade-waldmeister"/>
+            </div>
+            <div class="personal-info">
+                <h4>Angabenzur Person</h4>
+                <label for="anrede">Anrede</label>
+                <input type="text" name="anrede" id="anrede">
+                <label for="vorname">Vorname*</label>
+                <input type="text" name="vorname" id="vorname">
+                <label for="nachname">Nachname*</label>
+                <input type="text" name="nachname" id="nachname">
+            </div>
+            <div class="termin-info">
+                <p>Wunschtermin</p>
+                <label for="tag">Tag</label>
+                <input type="text" name="tag" id="tag">
+                <label for="monat">Monat</label>
+                <input type="text" name="monat" id="monat">
+                <label for="jahr">Jahr</label>
+                <input type="text" name="jahr" id="jahr">
+                <label for="mail">E-Mail-Addresse</label>
+                <input type="text" name="mail" id="mail">
+                <label for="telefon">Telefonnummer*</label>
+                <input type="text" name="telefon" id="telefon">
+            </div>
+            <div>
+                <button class="submit-button">Anfrage sendend</button>
+                <p>
+                    *Pflichtfelder
+                </p>
+            </div>
         </form>
+    </section>
+
+    <section id="booking-display">
+        <!--       TODO -->
     </section>
 
     <footer>

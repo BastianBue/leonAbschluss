@@ -12,5 +12,6 @@
     --akzent-yellow: #efc14e;
     --akzent-red: #e2543c;
 
-    --nav-width: 300px;
+    --nav-width: 250px;
+    --container-padding: 25px;
 }

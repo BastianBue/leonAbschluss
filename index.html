@@ -5,24 +5,31 @@
     <title>Leon App</title>
     <link rel="stylesheet" href="css/home/home.css">
     <link rel="stylesheet" href="css/home/slider.css">
+    <link rel="stylesheet" href="css/shared/fonts.css">
     <link rel="stylesheet" href="css/shared/nav.css">
     <link rel="stylesheet" href="css/shared/utility.css">
     <link rel="stylesheet" href="css/shared/reset.css">
 </head>
 <body>
 <nav id="navbar" classname="sidebar">
-    <ul>
-        <li class="nav-item">Homepage</li>
-        <li class="nav-item">News</li>
-        <li class="nav-item nav-green">Angebote + Events</li>
-        <li class="nav-item nav-yellow">Öffnungszeiten + Preise</li>
-        <li class="nav-secondary-item">Kontakt</li>
-        <li class="nav-secondary-item">Impressum</li>
-        <li class="nav-secondary-item">Datenschutz</li>
-    </ul>
-    <i class="socials icon-facebook"></i>
-    <i class="socials icon-facebook"></i>
-    <i class="socials icon-facebook"></i>
+    <div class="nav-container">
+        <ul class="nav-primary-items">
+            <li class="nav-item bold-24"><a href="/">Homepage</a></li>
+            <li class="nav-item bold-24"><a href="/news">News</a></li>
+            <li class="nav-item nav-green bold-24"><a href="/angebote">Angebote + Events</a></li>
+            <li class="nav-item nav-yellow bold-24"><a href=#öffnungszeiten>Öffnungszeiten + Preise</a></li>
+        </ul>
+        <ul class="nav-secondary-items">
+            <li class="nav-secondary-item bold-18">Kontakt</li>
+            <li class="nav-secondary-item bold-18">Impressum</li>
+            <li class="nav-secondary-item bold-18">Datenschutz</li>
+        </ul>
+        <div class="nav-socials">
+            <img class="icon-facebook" src="./assets/icons/socials/icon_facebook.png" alt="youtube">
+            <img class="icon-facebook" src="./assets/icons/socials/icon_twitter.png" alt="youtube">
+            <img class="icon-facebook" src="./assets/icons/socials/icon_youtube.png" alt="youtube">
+        </div>
+    </div>
 </nav>
 <main class="content">
     <section id="slideshow">
@@ -31,40 +38,63 @@
             <input type="radio" name="carousel" id="carousel-2" class="carousel-inputs">
             <input type="radio" name="carousel" id="carousel-3" class="carousel-inputs">
             <input type="radio" name="carousel" id="carousel-4" class="carousel-inputs">
+            <input type="radio" name="carousel" id="carousel-5" class="carousel-inputs">
             <div class="carousel-inner">
-                <div class="carousel-slide" style="background-color: #ffcccc;"></div>
-                <div class="carousel-slide" style="background-color: #ccffcc;"></div>
-                <div class="carousel-slide" style="background-color: #ccccff;"></div>
-                <div class="carousel-slide" style="background-color: #ffffcc;"></div>
+                <div class="carousel-slide slide-1 ">
+                    <h3>Seepferdchen <br>5-10 Jahre</h3>
+                    <p>Wir wollen nicht baden gehen.</p>
+                    <p>Wendig wie ein Seepferdchen im Wasser.</p>
+                </div>
+                <div class="carousel-slide slide-2" style="background-color: #ccffcc;">
+                    <h3>Kindergeburtstag <br>feiern</h3>
+                    <p>Wasservergnügen ohne Ende.</p>
+                    <p>Eine fröhliche Rutschpartie zum Kindergeburtstag</p>
+                </div>
+                <div class="carousel-slide slide-3" style="background-color: #ccccff;">
+                    <h3>Jugend holt Silber</h3>
+                    <p>Wer tauchen kann, geht nicht unter.</p>
+                    <p>Silberstreif am Horizont.</p>
+                </div>
+                <div class="carousel-slide slide-4" style="background-color: #ffffcc;">
+                    <h3>Filmnacht am Pool</h3>
+                    <p>Einfach gemeinsam abtauchen. </p>
+                    <p> Ein Familienvergnügen par excellence.</p>
+                </div>
+                <div class="carousel-slide slide-5" style="background-color: #ffffcc;">
+                    <h3>Aqua-Fitness für <br>Erwachsene</h3>
+                    <p>Wer cool ist, scheut das Wasser nicht. </p>
+                    <p>Es muss nicht immer nur Schwimmen sein.</p>
+                </div>
             </div>
             <div class="carousel-indicators">
                 <label class="carousel-indicator carousel-indicator-1" for="carousel-1"></label>
                 <label class="carousel-indicator carousel-indicator-2" for="carousel-2"></label>
                 <label class="carousel-indicator carousel-indicator-3" for="carousel-3"></label>
                 <label class="carousel-indicator carousel-indicator-4" for="carousel-4"></label>
+                <label class="carousel-indicator carousel-indicator-5" for="carousel-5"></label>
             </div>
+            <img class="brand-logo" src="./assets/images/logo.png" alt="logo">
         </div>
-        <img src="" alt="logo">
-        <h3>Seepferdchen <br>5-10 Jahre</h3>
-        <p>Wir wollen nicht baden gehen. Wendig wie ein Seepferdchen im Wasser.</p>
     </section>
-    <section id="description">
-        <h3>
+    <section id="description" class="container">
+        <h3 class="mt-24 mb-16 ">
             Schwimmspaß GmbH <br>
             im Wasserland
         </h3>
-        <h4>Einfach gemeinsam abtauchen</h4>
-        <p>
+        <h4 class="mb-16">Einfach gemeinsam abtauchen</h4>
+        <p class="mb-16 w-50">
             Wir betreiben ein öffentliches Schwimmbad für die ganze Familie. Egal, ob Sie mit Ihrem Kleinkind kommen,
             Jugendliche/r sind oder Sportschwimmer/-in, unsere Becken bieten allen einen passenden Ort. Dazu kommen
             Sprungtürme im Innen- und Außenbereich. Über die Sauna erfahren Sie alles Wichtige hier:
             www.sauna-wasserland.de. Das Freibad mit Liegewiese ist von Mai bis Oktober geöffnet.
-            <a href="#öffnungszeiten">Öffnungszeiten</a>
-            Wir bieten außerdem: Schwimmkurse für Kinder und Erwachsene, Aqua-Fitness-Angebote sowie
-            spezielle Events für Groß und Klein. Bleiben Sie neugierig! ((Link Angebote + Events)).
-            <a href="/angebote">Angebote + Events</a>
         </p>
-        <img src="" alt="">
+        <a class="bold-18 link-underline mb-16" href="#öffnungszeiten">Öffnungszeiten</a>
+        <p class="w-30 mb-16">
+            Wir bieten außerdem: Schwimmkurse für Kinder und Erwachsene, Aqua-Fitness-Angebote sowie
+            spezielle Events für Groß und Klein. Bleiben Sie neugierig!
+        </p>
+        <a class="bold-18 link-underline mb-16" href="/angebote">Angebote + Events</a>
+        <img class="background-wave" src="./assets/icons/waves/wave_1.png" alt="">
     </section>
     <section id="öffnungszeiten">
         <h3>
@@ -75,9 +105,9 @@
             <span>Mo, Di, Mi, Fr, So</span><span>10 Uhr bis 18 Uhr</span>
             <span>Do und Sa </span><span>10 Uhr bis 21.30 Uhr</span>
         </div>
-        <p>
+        <a class="mb-16 link-underline mb-16" href="#öffnungszeiten">
             Öffnungszeiten im Innenbereich:
-        </p>
+        </a>
         <div class="space-between">
             <span>Mo, Di, Mi, Fr, So</span><span>10 Uhr bis 18 Uhr</span>
         </div>

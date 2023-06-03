@@ -1,26 +1,44 @@
+
 body {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+nav {
+    --item-count: 6;
+}
+
+.brand-logo {
+    position: absolute;
+    width: 250px;
+    top: 32px;
+    right: calc(50% - 125px)
+}
+
 .carousel {
-    width: 500px;
-    height: 300px;
+    width: calc(100vw - var(--nav));
+    height: 100vh;
     position: relative;
     overflow: hidden;
 }
 
 .carousel-inner {
-    width: 400%;
+    width: 500%;
     height: 100%;
     display: flex;
     transition: transform 0.3s ease-in-out;
 }
 
 .carousel-slide {
-    width: 25%;
+    width: 20%;
     height: 100%;
+    box-sizing: border-box;
+    transition: opacity 0.3s ease-in-out;
+    padding: 45px var(--container-padding);
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
 }
 
 #carousel-1:checked ~ .carousel-inner {
@@ -28,25 +46,27 @@ body {
 }
 
 #carousel-2:checked ~ .carousel-inner {
-    transform: translateX(-25%);
+    transform: translateX(-20%);
 }
 
 #carousel-3:checked ~ .carousel-inner {
-    transform: translateX(-50%);
+    transform: translateX(-40%);
 }
 
 #carousel-4:checked ~ .carousel-inner {
-    transform: translateX(-75%);
+    transform: translateX(-60%);
 }
 
-.carousel-slide {
-    transition: opacity 0.3s ease-in-out;
+#carousel-5:checked ~ .carousel-inner {
+    transform: translateX(-80%);
 }
+
 
 #carousel-1:checked ~ .carousel-indicators .carousel-indicator-1,
 #carousel-2:checked ~ .carousel-indicators .carousel-indicator-2,
 #carousel-3:checked ~ .carousel-indicators .carousel-indicator-3,
-#carousel-4:checked ~ .carousel-indicators .carousel-indicator-4 {
+#carousel-4:checked ~ .carousel-indicators .carousel-indicator-4,
+#carousel-5:checked ~ .carousel-indicators .carousel-indicator-5 {
     background-color: #333;
 }
 
@@ -69,4 +89,32 @@ body {
 
 .carousel-inputs {
     display: none;
+}
+
+.carousel-slide {
+    background-size: cover;
+}
+
+.slide-1 {
+    background-image: url("../../assets/home/slides/slide1.png");
+}
+
+.slide-2 {
+    background-image: url("../../assets/home/slides/slide2.png");
+}
+
+.slide-3 {
+    background-image: url("../../assets/home/slides/slide3.png");
+}
+
+.slide-4 {
+    background-image: url("../../assets/home/slides/slide4.png");
+}
+
+.slide-5 {
+    background-image: url("../../assets/home/slides/slide5.png");
+}
+
+.slide-6 {
+    background-image: url("../../assets/home/slides/slide6.png");
 }

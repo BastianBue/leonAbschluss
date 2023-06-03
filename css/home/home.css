@@ -1,0 +1,44 @@
+@import '../shared/variables.css';
+
+.content {
+    margin-left: var(--nav-width);
+    position: relative;
+    width: calc(100vw - var(--nav-width));
+}
+
+.container {
+    box-sizing: border-box;
+    padding: 24px var(--container-padding);
+}
+
+/* Desctiption ------------------------------------------------------------------------------------------------------------------------*/
+
+#description {
+    position: relative;
+    background-color: var(--main-dark-blue);
+    color: white;
+}
+
+.link-underline{
+    display: block;
+}
+
+.link-underline:after{
+    content: url("../../assets/icons/waves/welle4.svg");
+    display: block;
+    margin-top: -8px;
+    margin-left: -8px;
+    fill: var(--main-light-blue);;
+    stroke: var(--main-light-blue);;
+    color: var(--main-light-blue);
+    height: 28px;
+    width: 50px;
+}
+
+.background-wave{
+    position: absolute;
+    height: 900px;
+    z-index: 10;
+    top: 100px;
+    left: -50px;
+}

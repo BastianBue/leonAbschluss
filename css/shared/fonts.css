@@ -1,0 +1,101 @@
+/* alegreya-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Alegreya';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../../assets/fonts/alegreya-v35-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* alegreya-800 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Alegreya';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../../assets/fonts/alegreya-v35-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* alegreya-900 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Alegreya';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../../assets/fonts/alegreya-v35-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* mulish-regular - latin */
+/* mulish-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../../assets/fonts/mulish-v12-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* mulish-500 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../../assets/fonts/mulish-v12-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Alegreya, serif;
+    font-weight: 900;
+}
+
+h2, .bold-40 {
+    font-family: Alegreya, serif;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 68px;
+}
+
+h3, .bold-32 {
+    font-family: Alegreya, serif;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+h4, .bold-24 {
+    font-family: Alegreya, serif;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+h5, .bold-18 {
+    font-family: Alegreya, serif;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.text-18 {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.text-24 {
+    font-size: 24px;
+    line-height: 38px;
+}
+
+.text-32 {
+    font-size: 32px;
+    line-height: 64px;
+}
+
+body {
+    font-family: Mulish, serif;
+}
+
+p{
+    line-height: 16px;
+}
