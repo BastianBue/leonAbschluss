@@ -42,3 +42,33 @@
     top: 100px;
     left: -50px;
 }
+
+/* Öffnungszeiten ------------------------------------------------------------------------------------------------------------------------*/
+
+#öffnungszeiten{
+    position: relative;
+    padding-top: 80px;
+    display: flex;
+    justify-content: end;
+}
+
+#öffnungszeiten .wave{
+    position: absolute;
+    width: 800px;
+    right: 900px;
+    top: 100px;
+}
+
+#öffnungszeiten .wave-2{
+    position: absolute;
+    width: 1000px;
+    right: 850px;
+    top: 400px;
+}
+
+.öffnungszeiten-container{
+    width: 700px;
+    max-width: 100%;
+    margin-right: 6%;
+    margin-left: 6%;
+}

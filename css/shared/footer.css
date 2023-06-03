@@ -1,0 +1,21 @@
+@import '../shared/variables.css';
+
+footer {
+    background-color: var(--main-dark-blue);
+    position: relative;
+    margin-top: 300px !important;
+    z-index: 6 !important;
+    color: white;
+}
+
+.footer-topper:before {
+    position: absolute;
+    width: 4000px;
+    height: 2000px;
+    content: "";
+    background-image: url("../../assets/icons/waves/welle2.svg");
+    background-size: contain;
+    top: -420px;
+    right: -600px;
+    z-index: -5;
+}

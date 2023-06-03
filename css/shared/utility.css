@@ -3,6 +3,9 @@
 }
 
 .justify-space-between{
+    display: flex;
+    width: 100%;
+    max-width: 500px;
     justify-content: space-between;
 }
 
@@ -37,6 +40,16 @@
 .mt-24{
     margin-top: 24px;
 }
+
+.mt-48{
+    margin-top: 48px;
+}
+
+.mt-96{
+    margin-top: 96px;
+}
+
+
 
 .w-60{
     width: 60%;
